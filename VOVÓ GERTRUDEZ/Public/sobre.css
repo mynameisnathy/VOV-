@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "Game Bubble";
+    src: url(/Public/game_bubble/Game\ Bubble.ttf);
+}
+
+.login a {
+    position: relative;
+    bottom: 10%;
+    left: -1%;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(112, 88, 62);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.menu {
+    background-color: #ab703a; /* Cor de fundo do menu */
+    padding: 10px 0; /* Espaçamento interno no menu */
+}
+
+.menu ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    text-align: center;
+    font-family: "Game Bubble";
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block; /* Exibe os itens em linha */
+    margin: 0 20px; /* Espaçamento entre os itens */
+}
+
+.menu ul li a {
+    color: rgb(236, 209, 187); /* Cor do texto dos links */
+    font-size: 18px; /* Tamanho da fonte */
+    padding: 10px 15px; /* Espaçamento ao redor do texto do link */
+}
+
+header {
+    text-align: center;
+    font-family: "Game Bubble";
+    font-size: 35px;
+    color: rgb(222, 192, 157); 
+    position: relative;
+    height: 100px;
+    background-color:rgba(89, 39, 6, 0.753);
+}
+
+.container {
+    align-self: center;
+    height: 2500px;
+    width: 99%;
+}
+
+audio {
+    width: 10px;
+    height: 10px;
+}
+
+.gif1 {
+    position: fixed;
+    display: block;
+    margin-bottom: 100px;
+    margin-top: -150px;
+    margin-right: 10px;
+    width: 100px; 
+    height: auto; 
+}
+
+.gif2 {
+    position: fixed;
+    display: block;
+    margin-bottom: 100px;
+    margin-top: -150px;
+    margin-left: 980px; 
+    width: 100px; 
+    height: auto;
+}
+
+img  {
+    height: 200px;
+ }
+
+h1 {
+    font-family: "Game Bubble";
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    color:rgb(157, 104, 74);
+}
+
+.container {
+    text-align: center;
+    height: 80px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(157, 104, 74);
+    font-size: 25px;
+    position: relative;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(124, 75, 43, 0.753);
+    font-size: 16px;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:rgb(156, 104, 51)
+}
+
+h4 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:rgb(245, 229, 214);
+    margin-bottom: 10px;
+    position: relative;
+}
+
+h5 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(255, 233, 206);
+    text-align: center;
+    position: relative;
+}
+
+.comentarios {
+    text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #e1c198;
+    padding: 20px;
+}
+
+.comentarios h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:rgb(156, 104, 51);
+    font-family: "Game Bubble";
+}
+
+.comentario {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.conteudo {
+    flex: 1;
+}
+
+.conteudo strong {
+    display: block;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ad793e;
+    margin-bottom: 5px;
+}
+
+.conteudo p {
+    margin: 0;
+    font-size: 14px;
+    color: #68492f;
+    line-height: 2.0;
+}
+
+.conteudo .data {
+    display: block;
+    font-size: 11px;
+    color: #fcf7f0;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.comentario h3{
+    text-align: left;
+    font-family: "Game Bubble";
+    font-size: 24px;
+}
+
+footer {
+    background-color:rgb(157, 104, 74);
+    height: 110px;
+}
+
+body {
+    background-color: rgb(241, 213, 185);
+}
